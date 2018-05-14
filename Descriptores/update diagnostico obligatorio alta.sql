@@ -1,0 +1,1 @@
+update descriptores set mascara= '0,0,0' where codigo_descriptor = 29025

@@ -1,0 +1,3 @@
+SELECT hc_b.nhc 'NHC Origen',hc_a.nhc 'NHC Destino',clientes.codigo_sexo , clientes.exitus_sn , hc_a.paso_por_archivo , clientes.apellido1 , clientes.apellido2 , clientes.nombre , clientes.codigo1 , clientes.codigo2 , clientes.codigo3 , clientes.telefono1 , clientes.dom_direccion , clientes.nac_fecha , 0 as cd_sex_descriptor 
+FROM clientes , hc hc_a , hc_fusion , hc hc_b 
+WHERE ( hc_a.codigo_cliente = clientes.codigo_cliente ) and ( hc_a.nhc_id = hc_fusion.nhc_id_destino ) and ( hc_fusion.nhc_id_origen = hc_b.nhc_id ) 

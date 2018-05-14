@@ -1,0 +1,1 @@
+select * from descriptores where codigo_descriptor = 7906

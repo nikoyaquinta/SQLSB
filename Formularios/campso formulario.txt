@@ -1,0 +1,13 @@
+hce_val_exp_time
+select * from hc where nhc =267
+
+select * from hce_exp_form where codigo_cliente = 281 and epis_pk=1136 and formulario_pk =1000972
+
+select * from hce_val_exp_num where exp_form_pk=13686
+
+select  * from hce_val_exp_date where exp_form_pk=13686
+
+-----------Campos--------------
+select  * from hce_val_exp_str where exp_form_pk=13686
+
+select * from hce_val_exp_date where exp_form_pk=13686
