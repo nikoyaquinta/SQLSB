@@ -1,0 +1,1 @@
+insert into motivo_nofact (mot_nofact_pk,mot_nofact_desc,activo_sn,nofact_sn) values (26,'Profesional alquila consultorio',1,1)
